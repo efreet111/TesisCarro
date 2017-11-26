@@ -1,0 +1,27 @@
+D:\WebSites\Tesis\OPTIMA\Logic\bin\Debug\Logic.dll
+D:\WebSites\Tesis\OPTIMA\Logic\bin\Debug\Logic.pdb
+D:\WebSites\Tesis\OPTIMA\Logic\bin\Debug\Data.dll
+D:\WebSites\Tesis\OPTIMA\Logic\bin\Debug\Entity.dll
+D:\WebSites\Tesis\OPTIMA\Logic\bin\Debug\Data.pdb
+D:\WebSites\Tesis\OPTIMA\Logic\bin\Debug\Entity.pdb
+D:\WebSites\Tesis\OPTIMA\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+D:\WebSites\Tesis\OPTIMA\Logic\obj\Debug\Logic.dll
+D:\WebSites\Tesis\OPTIMA\Logic\obj\Debug\Logic.pdb
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\bin\Debug\Logic.dll
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\bin\Debug\Logic.pdb
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\bin\Debug\Data.dll
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\bin\Debug\Entity.dll
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\bin\Debug\Data.pdb
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\bin\Debug\Entity.pdb
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\obj\Debug\Logic.dll
+D:\WebSites\Tesis\OPTIMA\OptimaProyecto\Logic\obj\Debug\Logic.pdb
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\bin\Debug\Logic.dll
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\bin\Debug\Logic.pdb
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\bin\Debug\Data.dll
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\bin\Debug\Entity.dll
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\bin\Debug\Data.pdb
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\bin\Debug\Entity.pdb
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\obj\Debug\Logic.dll
+C:\Users\Gantz\Documents\Visual Studio 2015\Projects\OPTIMA\OptimaProyecto\Logic\obj\Debug\Logic.pdb
