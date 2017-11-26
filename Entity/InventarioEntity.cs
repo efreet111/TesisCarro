@@ -40,5 +40,25 @@ namespace Entity
             public int? idTipoPadre { get; set; }
         }
 
+        public class coloresEntity
+        {
+            public int? idColor { get; set; }
+            public string Nombre { get; set; }
+            public string codigo { get; set; }
+            public string codigoPaleta { get; set; }
+            public int? Amarillo { get; set; }
+            public int? Magenta { get; set; }
+            public int? Cian { get; set; }
+            public int? Rojo { get; set; }
+            public int? Azul { get; set; }
+            public int? Verde { get; set; }
+            public int? Blanco { get; set; }
+            public int? Negro { get; set; }
+            public int? Plateado { get; set; }
+            public int? Dorado { get; set; }
+            public int? idUsuarioCambio { get; set; }
+            public string Estatus { get; set; }
+        }
+
     }
 }

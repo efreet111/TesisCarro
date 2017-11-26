@@ -37,7 +37,7 @@
                                             <div class="panel-heading">
                                                 <div class="row">
                                                     <div class="col-sm-4">
-                                                        <h5>Imformacón del material</h5>
+                                                        <h5>Informacón del material</h5>
                                                     </div>
                                                     <div class="col-sm-8">
                                                     </div>

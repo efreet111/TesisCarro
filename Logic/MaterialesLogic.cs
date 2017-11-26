@@ -150,5 +150,73 @@ namespace Logic
             return result;
         }
 
+
+        public List<Entity.InventarioEntity.coloresEntity> ObtenerColores(Entity.InventarioEntity.coloresEntity obj)
+        {
+            List<Entity.InventarioEntity.coloresEntity> result = null;
+            DataSet ds = null;
+            Entity.InventarioEntity.coloresEntity item = null;
+
+            try
+            {
+                ds = dac.sp_SelectColores(obj);
+
+                result = new List<Entity.InventarioEntity.coloresEntity>();
+
+                if (ds.Tables.Count > 0)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        item = new Entity.InventarioEntity.coloresEntity();
+
+                        item.idColor = (dr["idColor"] != DBNull.Value) ? Convert.ToInt32(dr["idColor"]) : (int?)null;
+                        //item.idUsuarioCambio = (dr["idUsuarioCambio"] != DBNull.Value) ? Convert.ToInt32(dr["idUsuarioCambio"]) : (int?)null;
+                        item.Nombre = (dr["Nombre"] != DBNull.Value) ? dr["Nombre"].ToString() : String.Empty;
+                        item.Estatus = (dr["Estatus"] != DBNull.Value) ? dr["Estatus"].ToString() : String.Empty;
+                        item.codigo = (dr["Codigo"] != DBNull.Value) ? dr["Codigo"].ToString() : String.Empty;
+                        item.codigoPaleta = (dr["codigoPaleta"] != DBNull.Value) ? dr["codigoPaleta"].ToString() : String.Empty;
+                        result.Add(item);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return result;
+        }
+
+        public Boolean Eliminarcolor(int idColor)
+        {
+            Boolean result = false;
+
+            try
+            {
+                result = dac.sp_DeleteColor(idColor);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return result;
+        }
+
+        public int InsertUpdateColores(Entity.InventarioEntity.coloresEntity obj)
+        {
+            int result = 0;
+
+            try
+            {
+                result = dac.sp_InsertEditColor(obj);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return result;
+        }
+
+
     }
 }

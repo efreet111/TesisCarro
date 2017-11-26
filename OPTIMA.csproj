@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -6445,6 +6446,7 @@
     <Content Include="build\js\TodoList.js" />
     <Content Include="build\js\Tree.js" />
     <Content Include="CrearEditarInventario.aspx" />
+    <Content Include="CrearEditarColor.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
     <Content Include="dist\css\AdminLTE.min.css" />
     <Content Include="dist\css\alt\AdminLTE-bootstrap-social.css" />
@@ -6683,6 +6685,13 @@
     </Compile>
     <Compile Include="CrearEditarInventario.aspx.designer.cs">
       <DependentUpon>CrearEditarInventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrearEditarColor.aspx.cs">
+      <DependentUpon>CrearEditarColor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearEditarColor.aspx.designer.cs">
+      <DependentUpon>CrearEditarColor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Helper\ManejadorError.cs" />
     <Compile Include="Helper\Utility.cs" />
